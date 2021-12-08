@@ -1,0 +1,14 @@
+.DS_Store
+*.gise
+*.xise
+*.jhd
+*.vf
+*.cmd
+*.log
+simulator/
+*.exe
+*.html
+*.wdb
+lockfile
+
+

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="LOGIC_AND">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-9-18T5:41:27</timestamp>
+    <attr value="LOGIC_AND" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-96" name="A" />
+    <pin polarity="Input" x="0" y="-32" name="B" />
+    <pin polarity="Output" x="272" y="-64" name="Y" />
+    <graph>
+        <line x2="76" y1="-96" y2="-96" x1="0" />
+        <line x2="76" y1="-32" y2="-32" x1="0" />
+        <line x2="156" y1="-112" y2="-112" x1="76" />
+        <line x2="76" y1="-16" y2="-112" x1="76" />
+        <line x2="76" y1="-16" y2="-16" x1="156" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="228" y="-76" type="pin Y" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="52" y="-108" type="pin A" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="52" y="-44" type="pin B" />
+        <arc ex="156" ey="-112" sx="156" sy="-16" r="47" cx="153" cy="-65" />
+        <line x2="272" y1="-64" y2="-64" x1="204" />
+        <text style="fontsize:24;fontname:Arial" x="64" y="0">LOGIC_AND</text>
+    </graph>
+</symbol>
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="LOGIC_BUF">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-9-18T5:53:12</timestamp>
+    <attr value="LOGIC_BUF" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-32" name="A" />
+    <pin polarity="Output" x="192" y="-32" name="Y" />
+    <graph>
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <line x2="64" y1="0" y2="-60" x1="64" />
+        <line x2="64" y1="-32" y2="-60" x1="124" />
+        <line x2="64" y1="-32" y2="0" x1="124" />
+        <text style="fontsize:24;fontname:Arial" x="20" y="16">LOGIC_BUF</text>
+        <line x2="192" y1="-32" y2="-32" x1="124" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="148" y="-44" type="pin Y" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="32" y="-44" type="pin A" />
+    </graph>
+</symbol>
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="LOGIC_INV">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-9-18T5:44:56</timestamp>
+    <attr value="LOGIC_INV" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-32" name="A" />
+    <pin polarity="Output" x="224" y="-32" name="Y" />
+    <graph>
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <line x2="128" y1="-60" y2="-28" x1="64" />
+        <circle r="16" cx="144" cy="-28" />
+        <line x2="64" y1="4" y2="-60" x1="64" />
+        <line x2="64" y1="-28" y2="4" x1="128" />
+        <text style="fontsize:24;fontname:Arial" x="40" y="20">LOGIC_INV</text>
+        <line x2="224" y1="-32" y2="-32" x1="160" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="32" y="-48" type="pin A" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="184" y="-48" type="pin Y" />
+    </graph>
+</symbol>
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="LOGIC_MUX2_1">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-9-18T5:0:15</timestamp>
+    <attr value="LOGIC_MUX2_1" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-112" name="D0" />
+    <pin polarity="Input" x="0" y="-64" name="D1" />
+    <pin polarity="Input" x="144" y="0" name="S" />
+    <pin polarity="Output" x="272" y="-96" name="Y" />
+    <graph>
+        <rect width="160" x="64" y="-144" height="112" />
+        <line x2="0" y1="-112" y2="-112" x1="64" />
+        <line x2="0" y1="-64" y2="-64" x1="64" />
+        <text style="fontsize:24;fontname:Arial" x="76" y="-108">0</text>
+        <text style="fontsize:24;fontname:Arial" x="76" y="-64">1</text>
+        <line x2="144" y1="-32" y2="0" x1="144" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="136" y="-44" type="pin S" />
+        <text style="fontsize:24;fontname:Arial" x="112" y="-100">LOGIC</text>
+        <text style="fontsize:24;fontname:Arial" x="104" y="-76">2:1 MUX</text>
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="216" y="-92" type="pin Y" />
+        <line x2="224" y1="-96" y2="-96" x1="272" />
+    </graph>
+</symbol>
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="LOGIC_MUX4_1">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-9-18T4:56:57</timestamp>
+    <attr value="LOGIC_MUX4_1" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-224" name="D0" />
+    <pin polarity="Input" x="0" y="-176" name="D1" />
+    <pin polarity="Input" x="0" y="-128" name="D2" />
+    <pin polarity="Input" x="0" y="-80" name="D3" />
+    <pin polarity="Input" x="192" y="0" name="S0" />
+    <pin polarity="Input" x="144" y="0" name="S1" />
+    <pin polarity="Output" x="336" y="-144" name="Y" />
+    <graph>
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <text style="fontsize:24;fontname:Arial" x="132" y="-160">LOGIC</text>
+        <text style="fontsize:24;fontname:Arial" x="124" y="-132">4:1 MUX</text>
+        <line x2="0" y1="-176" y2="-176" x1="64" />
+        <line x2="0" y1="-124" y2="-124" x1="64" />
+        <text style="fontsize:24;fontname:Arial" x="76" y="-176">1</text>
+        <text style="fontsize:24;fontname:Arial" x="76" y="-124">2</text>
+        <text style="fontsize:24;fontname:Arial" x="76" y="-220">0</text>
+        <line x2="0" y1="-80" y2="-80" x1="64" />
+        <text style="fontsize:24;fontname:Arial" x="76" y="-80">3</text>
+        <rect width="204" x="64" y="-256" height="212" />
+        <line x2="192" y1="-40" y2="0" x1="192" />
+        <line x2="144" y1="-44" y2="0" x1="144" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="132" y="-60" type="pin S1" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="176" y="-60" type="pin S0" />
+        <line x2="336" y1="-144" y2="-144" x1="268" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="260" y="-144" type="pin Y" />
+    </graph>
+</symbol>
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="LOGIC_MUX8_1">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-9-18T5:21:23</timestamp>
+    <attr value="LOGIC_MUX8_1" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-432" name="D0" />
+    <pin polarity="Input" x="0" y="-384" name="D1" />
+    <pin polarity="Input" x="0" y="-336" name="D2" />
+    <pin polarity="Input" x="0" y="-288" name="D3" />
+    <pin polarity="Input" x="0" y="-240" name="D4" />
+    <pin polarity="Input" x="0" y="-192" name="D5" />
+    <pin polarity="Input" x="0" y="-144" name="D6" />
+    <pin polarity="Input" x="0" y="-96" name="D7" />
+    <pin polarity="Input" x="144" y="0" name="S0" />
+    <pin polarity="Input" x="192" y="0" name="S1" />
+    <pin polarity="Input" x="240" y="0" name="S2" />
+    <pin polarity="Output" x="384" y="-272" name="Y" />
+    <graph>
+        <line x2="0" y1="-432" y2="-432" x1="64" />
+        <line x2="0" y1="-384" y2="-384" x1="64" />
+        <line x2="0" y1="-336" y2="-336" x1="64" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <line x2="0" y1="-240" y2="-240" x1="64" />
+        <line x2="0" y1="-192" y2="-192" x1="64" />
+        <line x2="0" y1="-144" y2="-144" x1="64" />
+        <rect width="256" x="64" y="-464" height="412" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <text style="fontsize:24;fontname:Arial" x="80" y="-336">2</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-384">1</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-428">0</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-288">3</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-240">4</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-192">5</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-144">6</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-96">7</text>
+        <text style="fontsize:24;fontname:Arial" x="156" y="-300">LOGIC</text>
+        <text style="fontsize:24;fontname:Arial" x="148" y="-272">8:1 MUX</text>
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="132" y="-72" type="pin S0" />
+        <line x2="144" y1="0" y2="-48" x1="144" />
+        <line x2="192" y1="0" y2="-48" x1="192" />
+        <line x2="240" y1="0" y2="-48" x1="240" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="180" y="-72" type="pin S1" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="228" y="-72" type="pin S2" />
+        <line x2="384" y1="-272" y2="-272" x1="320" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="304" y="-272" type="pin Y" />
+    </graph>
+</symbol>
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="LOGIC_MUX16_1">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-9-18T5:21:31</timestamp>
+    <attr value="LOGIC_MUX16_1" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-848" name="D0" />
+    <pin polarity="Input" x="0" y="-800" name="D1" />
+    <pin polarity="Input" x="0" y="-752" name="D2" />
+    <pin polarity="Input" x="0" y="-704" name="D3" />
+    <pin polarity="Input" x="0" y="-656" name="D4" />
+    <pin polarity="Input" x="0" y="-608" name="D5" />
+    <pin polarity="Input" x="0" y="-560" name="D6" />
+    <pin polarity="Input" x="0" y="-512" name="D7" />
+    <pin polarity="Input" x="0" y="-464" name="D8" />
+    <pin polarity="Input" x="0" y="-416" name="D9" />
+    <pin polarity="Input" x="0" y="-368" name="D10" />
+    <pin polarity="Input" x="0" y="-320" name="D11" />
+    <pin polarity="Input" x="0" y="-272" name="D12" />
+    <pin polarity="Input" x="0" y="-224" name="D13" />
+    <pin polarity="Input" x="0" y="-176" name="D14" />
+    <pin polarity="Input" x="0" y="-128" name="D15" />
+    <pin polarity="Output" x="384" y="-480" name="Y" />
+    <pin polarity="Input" x="272" y="0" name="S0" />
+    <pin polarity="Input" x="176" y="0" name="S2" />
+    <pin polarity="Input" x="224" y="0" name="S1" />
+    <pin polarity="Input" x="128" y="0" name="S3" />
+    <graph>
+        <line x2="0" y1="-848" y2="-848" x1="64" />
+        <text style="fontsize:24;fontname:Arial" x="80" y="-752">2</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-800">1</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-844">0</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-704">3</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-656">4</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-608">5</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-560">6</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-512">7</text>
+        <line x2="0" y1="-800" y2="-800" x1="64" />
+        <line x2="0" y1="-752" y2="-752" x1="64" />
+        <line x2="0" y1="-704" y2="-704" x1="64" />
+        <line x2="0" y1="-656" y2="-656" x1="64" />
+        <line x2="0" y1="-608" y2="-608" x1="64" />
+        <line x2="0" y1="-560" y2="-560" x1="64" />
+        <line x2="0" y1="-512" y2="-512" x1="64" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <line x2="0" y1="-464" y2="-464" x1="64" />
+        <text style="fontsize:24;fontname:Arial" x="80" y="-464">8</text>
+        <line x2="0" y1="-368" y2="-368" x1="64" />
+        <line x2="0" y1="-320" y2="-320" x1="64" />
+        <line x2="0" y1="-272" y2="-272" x1="64" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <line x2="0" y1="-176" y2="-176" x1="64" />
+        <line x2="0" y1="-128" y2="-128" x1="64" />
+        <text style="fontsize:24;fontname:Arial" x="80" y="-416">9</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-368">10</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-320">11</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-272">12</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-224">13</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-176">14</text>
+        <text style="fontsize:24;fontname:Arial" x="80" y="-128">15</text>
+        <line x2="128" y1="-64" y2="0" x1="128" />
+        <line x2="176" y1="0" y2="-64" x1="176" />
+        <line x2="224" y1="0" y2="-64" x1="224" />
+        <line x2="272" y1="-64" y2="0" x1="272" />
+        <line x2="388" y1="-480" y2="-480" x1="324" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-480" type="pin Y" />
+        <text style="fontsize:24;fontname:Arial" x="164" y="-508">LOGIC</text>
+        <text style="fontsize:24;fontname:Arial" x="152" y="-480">16:1 MUX</text>
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="260" y="-84" type="pin S0" />
+        <rect width="256" x="64" y="-880" height="812" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="216" y="-84" type="pin S1" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="116" y="-84" type="pin S3" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="164" y="-84" type="pin S2" />
+    </graph>
+</symbol>
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="LOGIC_NAND">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-9-18T5:38:15</timestamp>
+    <attr value="LOGIC_NAND" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-96" name="A" />
+    <pin polarity="Input" x="0" y="-32" name="B" />
+    <pin polarity="Output" x="256" y="-64" name="Y" />
+    <graph>
+        <line x2="64" y1="-32" y2="-32" x1="0" />
+        <line x2="64" y1="-96" y2="-96" x1="0" />
+        <circle r="12" cx="204" cy="-64" />
+        <line x2="64" y1="-16" y2="-112" x1="64" />
+        <line x2="144" y1="-112" y2="-112" x1="64" />
+        <line x2="64" y1="-16" y2="-16" x1="144" />
+        <arc ex="144" ey="-112" sx="144" sy="-16" r="48" cx="144" cy="-64" />
+        <line x2="216" y1="-64" y2="-64" x1="256" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="44" y="-48" type="pin B" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="44" y="-112" type="pin A" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="240" y="-80" type="pin Y" />
+        <text style="fontsize:24;fontname:Arial" x="40" y="0">LOGIC_NAND</text>
+    </graph>
+</symbol>
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="LOGIC_NOR">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-9-18T5:39:35</timestamp>
+    <attr value="LOGIC_NOR" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-96" name="A" />
+    <pin polarity="Input" x="0" y="-32" name="B" />
+    <pin polarity="Output" x="256" y="-64" name="Y" />
+    <graph>
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="32" y="-116" type="pin A" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="40" y="-44" type="pin B" />
+        <line x2="64" y1="-32" y2="-32" x1="0" />
+        <line x2="64" y1="-96" y2="-96" x1="0" />
+        <circle r="12" cx="204" cy="-64" />
+        <arc ex="192" ey="-64" sx="112" sy="-16" r="88" cx="116" cy="-104" />
+        <arc ex="112" ey="-112" sx="192" sy="-64" r="88" cx="116" cy="-24" />
+        <arc ex="48" ey="-112" sx="48" sy="-16" r="56" cx="16" cy="-64" />
+        <line x2="48" y1="-16" y2="-16" x1="112" />
+        <line x2="48" y1="-112" y2="-112" x1="112" />
+        <text style="fontsize:24;fontname:Arial" x="48" y="0">LOGIC_NOR</text>
+        <line x2="216" y1="-64" y2="-64" x1="256" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="236" y="-76" type="pin Y" />
+    </graph>
+</symbol>
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="LOGIC_OR">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-9-18T5:43:37</timestamp>
+    <attr value="LOGIC_OR" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-96" name="A" />
+    <pin polarity="Input" x="0" y="-32" name="B" />
+    <pin polarity="Output" x="272" y="-64" name="Y" />
+    <graph>
+        <line x2="76" y1="-32" y2="-32" x1="0" />
+        <line x2="76" y1="-96" y2="-96" x1="0" />
+        <line x2="272" y1="-64" y2="-64" x1="208" />
+        <arc ex="204" ey="-64" sx="124" sy="-16" r="88" cx="128" cy="-104" />
+        <arc ex="60" ey="-112" sx="60" sy="-16" r="56" cx="28" cy="-64" />
+        <line x2="60" y1="-112" y2="-112" x1="124" />
+        <arc ex="124" ey="-112" sx="204" sy="-64" r="88" cx="128" cy="-24" />
+        <line x2="60" y1="-16" y2="-16" x1="124" />
+        <text style="fontsize:24;fontname:Arial" x="64" y="4">LOGIC_OR</text>
+        <attrtext attrname="PinName" x="44" y="-108" type="pin A" />
+        <attrtext attrname="PinName" x="44" y="-40" type="pin B" />
+        <attrtext attrname="PinName" x="220" y="-76" type="pin Y" />
+    </graph>
+</symbol>
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="LOGIC_XOR">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-9-18T5:45:14</timestamp>
+    <attr value="LOGIC_XOR" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-96" name="A" />
+    <pin polarity="Input" x="0" y="-32" name="B" />
+    <pin polarity="Output" x="320" y="-64" name="Y" />
+    <graph>
+        <line x2="84" y1="-96" y2="-96" x1="0" />
+        <line x2="88" y1="-32" y2="-32" x1="0" />
+        <arc ex="68" ey="-112" sx="72" sy="-16" r="56" cx="40" cy="-64" />
+        <arc ex="88" ey="-112" sx="88" sy="-16" r="56" cx="56" cy="-64" />
+        <line x2="88" y1="-112" y2="-112" x1="152" />
+        <line x2="88" y1="-16" y2="-16" x1="152" />
+        <arc ex="152" ey="-112" sx="232" sy="-64" r="88" cx="156" cy="-24" />
+        <arc ex="232" ey="-64" sx="152" sy="-16" r="88" cx="156" cy="-104" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="48" y="-108" type="pin A" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="48" y="-44" type="pin B" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="256" y="-76" type="pin Y" />
+        <line x2="320" y1="-64" y2="-64" x1="236" />
+        <text style="fontsize:24;fontname:Arial" x="80" y="4">LOGIC_XOR</text>
+    </graph>
+</symbol> 
